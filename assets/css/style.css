@@ -1,0 +1,953 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --thmColor: 000;
+  --bs-lapis-blue: #1A348A;
+  --bs-blue-De-France: #318CE7;
+  --bs-orangey-yellow: #F6B90D;
+  --bs-dark-turquoise: #07C3D4
+  --bs-body: #EFF7FB;
+  --f18: 18px;
+  --f20: 20px;
+  --f22: 22px;
+  --f24: 24px;
+  --f28: 28px;
+  --f30: 30px;
+  --f32: 32px;
+  --f36: 36px;
+  --f40: 40px;
+  --f48: 48px;
+}
+
+body {
+font-family: 'TT Hoves Pro Bold Outline Trial';
+  font-weight: 400;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  
+}
+
+img{
+  max-width: 100%;
+}
+  
+button {
+  cursor: pointer; 
+  border: none;
+  padding: 0;
+  background: none;
+}
+
+a:focus,
+button:focus {
+  text-decoration: none;
+  outline: none; }
+
+a:focus,
+a:hover {
+  text-decoration: none; }
+
+a{
+  text-decoration: none;
+}
+
+
+button:focus, input:focus, input:focus, textarea, textarea:focus {
+  outline: 0; }
+
+ 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0px; 
+ 
+ }
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  color: inherit; }
+
+
+
+ul {
+  margin: 0px;
+  padding: 0px; }
+
+li {
+  list-style: none; }
+
+.pb_150{padding-bottom: 150px;}
+.pb_100{padding-bottom: 100px;}
+.pb_50{padding-bottom: 50px;}
+.pt_150{padding-top: 150px;}
+.pt_100{padding-top: 100px;}
+.pt_50{padding-top: 50px;}
+
+.mb_150{margin-bottom: 150px;}
+.mb_100{margin-bottom: 100px;}
+.mb_50{margin-bottom: 50px;}
+.mt_150{margin-top: 150px;}
+.mt_100{margin-top: 100px;}
+.mt_50{margin-top: 50px;}
+ 
+.thm_btn{}
+
+section{
+  min-width: 1440px;
+}
+.hero-section{
+  background-image: linear-gradient(114deg, var(--bs-lapis-blue, #1A348A), var(--bs-blue-De-France, #1A348A));
+  margin-top: -97px;
+  height: 900px;
+}
+.logo-area{
+  width: 179px;
+  height: 48px;
+  top: 15px;
+  left: 146px;
+  padding: 0px;
+  gap: 0px;
+  opacity: 0px;
+  
+}
+.header-area {
+  width: 100%;
+  z-index: 99; 
+  background: transparent;
+  
+}
+.header-area .menubar {
+  padding: 16px 85px !;
+  z-index: 999999;
+  position: relative;
+}
+.header-area .menubar .row{
+  padding-bottom: 12px;
+}
+
+.menu-area nav ul{
+  display: flex;
+  gap: 10 50px;
+  align-items: center;
+  
+}
+.menu-area nav ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+.menu-area nav ul li a {
+font-family: 'Poppins';
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+color: white;
+}
+
+.menu-area nav ul li a {
+  width:  139px;
+height: 47px;
+padding: 12px 31px 12px 31px;
+border-radius: 50px ;
+
+font-family: 'Poppins';
+font-size: 16px;
+font-weight: 700;
+line-height: 22.96px;
+text-align: left;
+
+transition: all .5s ease-in-out;
+}
+.menu-area nav ul li .active{
+  background-color: white;
+  color: black;
+}
+.menu-area{
+  display: flex;
+  justify-content: end;
+  
+}
+.hero-area{
+ position: relative;
+  width: 100%;
+  padding-top: 100px;
+  background-repeat: no-repeat;
+  background-position: right center;
+  display: flex;
+  align-items: center;
+}
+.hero-area .backgroundImg{
+  background-image: url("/assets/img/illustration hero.png");
+  width: 100%;
+  min-height: 100%;
+  position: absolute;
+  background-repeat: no-repeat;
+  z-index: 9999;
+  top: -9%;
+  left: -11%;
+  background-position:  right center ;
+}
+.hero-area .left {
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: start;
+flex-direction: column;
+padding-top: 185px;
+padding-left: 60px;
+}
+.hero-area .right {
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: start;
+flex-direction: column;
+padding: 185px 0;
+}
+.hero-area .right .mobile_img{
+  display: none;
+}
+.hero-area .left .heading1{
+font-family: 'TT Hoves Pro Bold Outline Trial';
+
+font-size: 48px;
+
+font-weight: ExtraBold;
+line-height: 57.6px;
+letter-spacing: -0.02em;
+text-align: left;
+background-color: #07C3D4;
+border: 1px solid #07C3D4;
+border-radius: 10px;
+padding: 0 5px;
+color: #232323;
+box-shadow:2px 2px 10px #232323;
+
+}
+.hero-area .left .heading2{
+font-family: 'TT Hoves Pro Bold Outline Trial';
+
+font-size: 48px;
+font-weight: 700;
+line-height: 57.6px;
+letter-spacing: -0.02em;
+text-align: left;
+color: white;
+text-shadow:2px 2px 10px #232323;
+
+}
+.hero-area .left p{
+font-family: 'TT Hoves Pro Bold Outline Trial';
+
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #FFFFFFB8;
+  margin-left: 30px;
+  margin-top:5px;
+
+
+
+}
+.hero-area .left button{
+  width: 139px;
+  height: 47px;
+  top: 540px;
+  left: 160px;
+  padding: 12px 31px 12px 31px;
+  gap: 10px;
+  border-radius: 50px ;
+  opacity: 0px;
+  background-color: white;
+ margin-left: 100px;
+ margin-top:72px ;
+ font-family: Poppins;
+ font-size: 16px;
+ font-weight: 700;
+ line-height: 22.96px;
+ text-align: left;
+ text-shadow:2px 2px 10px #232323;
+
+}
+
+  .hero-area .left .users {
+    width: 291px;
+    height: 84px;
+    gap: 0px;
+    border-radius: 19px;
+    display: flex;
+    margin-left: 100px;
+    margin-top: 72px;
+    padding: 10px 15px;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(2px); /* Adjusted backdrop-filter value */
+    background-color: rgba(255, 255, 255, 0.4); /* Adjusted background-color value */
+    position: relative;
+  }
+  
+  .hero-area .left .users .user-total .total{
+    padding: 0 !important;
+    color: white;
+    font-family: 'TT Hoves Pro Bold Outline Trial';
+font-size: 24px;
+font-weight: 700;
+line-height: 28.8px;
+letter-spacing: -0.02em;
+text-align: left;
+
+  }
+.hero-area .left .users .user-total{
+display: flex;
+flex-direction: column;
+gap: 0;
+
+}
+.hero-area .left .users .user-details{
+position: relative;
+display: flex;
+
+}
+.hero-area .left .users .user-details .user-img{
+width: 54px;
+height: 55px;
+border: 3px;
+
+}
+.hero-area .left .users .user-details .user-img:nth-child(1){
+  margin-right: -15px;
+  
+}
+.hero-area .left .users .user-details .user-img:nth-child(2){
+  margin-right: -15px;
+  
+}
+.hero-area .left .users .user-details .user-img:nth-child(3){
+  margin-right: 0;
+  
+}
+.opte-pela{
+  padding: 136px 0 500px 0;
+  min-height: 2070px;
+  gap: 44px 0;
+  
+}
+.opte-pela .title{
+
+  position: relative;
+}
+.opte-pela .title h1{
+  z-index: 0;
+  font-family: 'TT Hoves Pro Bold Outline Trial';
+font-size: 48px;
+font-weight: 700;
+line-height: 57.6px;
+letter-spacing: -0.02em;
+text-align: center;
+padding-top: 85px;
+
+}
+.opte-pela .title::after {
+  content: "";
+  width: 100px;
+  height: 100px;
+  border: 2px solid gray;
+  border-style: dashed;
+  z-index: 9999;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+}
+
+.opte-pela .title span{
+  padding: 5px 10px;
+  height: 60px;
+  
+  border-radius: 10px ;
+  border: 1px solid black;
+
+
+background-color: var(--bs-orangey-yellow);
+
+}
+.opte-pela .description{
+  width: 756px ;
+  height: 48px;
+  font-family: 'TT Hoves Pro Bold Outline Trial';
+  font-size: 16px;
+  font-weight: 400;
+  text-align: justify;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  text-align: justify;
+  color: #2E3238B8;
+  margin: 0 auto;
+  padding: 10px;
+  
+}
+.opte-pela .opte-section{
+display: flex;
+justify-content: space-between;
+padding: 10px;
+
+
+
+
+}
+.opte-pela .opte-section .opet-img{
+ 
+padding: 0px;
+
+
+}
+.opte-pela .opte-section .opet-main{
+display: flex;
+flex-direction: column;;
+justify-content: center ;
+align-items: start;
+
+
+}
+.opte-pela .opte-section .opet-main .opet-title{
+  font-family: TT Hoves Pro Trial;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 43.2px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color:#232323;
+
+
+}
+.opte-pela .opte-section .opet-main .opet-desc{
+  font-family: TT Hoves Pro Trial;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #2E3238B8;
+
+
+}
+.opte-pela .opte-section .opet-main .opet-title{
+  /* padding-top: 70px;
+  padding-left:0px; */
+}
+.opte-pela .opte-section .opet-main .opet-desc{
+  /* padding-top:0px; */
+  /* padding-left: 60px; */
+}
+.opte-pela .opte-section .opet-main:nth-child(1){
+  padding-top: 150px;
+  padding-left: 50px;
+}
+.opte-pela .opte-section .opet-main:nth-child(2){
+
+  padding-top: 30px;
+  padding-left: 50px;
+}
+
+
+.services{
+  min-height: 714px;
+  background-color: #232323;
+
+}
+.services .services-container{
+ width: 100%;
+ position: relative;
+ right: 0;
+ top: 0;
+ height: 100%;
+}
+.services .services-container h2{
+  position: absolute;
+  font-family: 'TT Hoves Pro Bold Outline Trial';
+font-size: 64px;
+font-weight: 700;
+line-height: 76.8px;
+letter-spacing: -0.02em;
+text-align: left;
+color: white;
+bottom: 2%;
+left: 5%;
+width: 304px;
+height: 174px;
+
+
+}
+.services .services-container .vector-main{
+ min-height: 100%;
+ width: 100%;
+ display: flex;
+ flex-direction: column;
+position: relative;
+}
+.services .services-container .mobile-vector{
+ display: none;
+}
+
+.services .services-container .vector-main .vector-1{
+  height: 238px;
+ display: flex;
+ align-items: center;
+ justify-content: end;
+ 
+  
+}
+.services .services-container .vector-main .vector_middle{
+ flex-wrap: nowrap;
+  width: 1103px;
+  overflow: hidden;
+  align-self: flex-end;
+  padding-left: 150px !important;
+  margin-right: -150px !important;
+}
+
+.services .services-container .vector-main .vector-1 .vector{
+  width: 276px ;
+  height: 238px;
+  display: flex;
+  justify-content: start;
+  padding: 15px 30px;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("/assets/img/vectorbg.png");
+  
+}
+.services .services-container .vector-main .vector-1 .vector span{
+  font-family: TT Hoves Pro Trial;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: -0.02em;
+text-align: center;
+color: #EFF7FB;
+  
+  
+}
+.services .services-container .vector-main .vector-1 .vector .img_div{
+  width: 71px;
+  height: 69px;
+  top: 3064px;
+  left: 417px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: #FFFFFF0A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  margin-top: 30px;
+}
+ /* tutor  */
+ .tutor-area .container{
+
+  
+ }
+ .tutor-area h1{
+  padding-bottom: 34px;
+  text-align: left;
+ }
+ .tutor-area .container{
+height: auto;
+opacity: 0px;
+width: 1200px;
+padding: 85px 0px 0 0px;
+
+ }
+ .tutor-area .container .container .arrowButton {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 0 50px;
+
+ }
+ .tutor-area .container .title {
+  font-family: TT Hoves Pro Trial;
+font-size: 48px;
+line-height: 57.6px;
+letter-spacing: -0.02em;
+text-align: left;
+text-transform: capitalize;
+
+
+
+ }
+ .tutor-area .container .title span {
+  font-family: TT Hoves Pro Trial;
+font-size: 48px;
+line-height: 57.6px;
+letter-spacing: -0.02em;
+text-align: left;
+background-color: #F6B90D;
+color: #262626;
+padding: 5px 10px;
+ border-radius: 10px ;
+  border: 1px solid black;
+ }
+.tutor-area .card-container {
+  width: 1200px;
+height: 539.7;
+padding-bottom: 116px;
+display: flex;
+justify-content: center;
+margin:0 auto;
+ }
+ .tutor-area .card-container .card {
+  background-image: url("/assets/img/card-bg.png");
+  width: 369px;
+  height: 422px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 34px;
+  padding: 16px;
+  gap: 16px  0;
+
+ }
+ .tutor-area .card-container .card .img-card {
+   width: 136px !important;
+   height: 136px !important;
+   border-radius: 100%;
+   background-image: linear-gradient(180deg, #F6B90D 0%, #FA088D 100%);
+   display:flex;
+   justify-content:center;
+   align-items: center;
+   padding: 5px 0;
+ }
+ .tutor-area .card-container .card .img-card .card-bg {
+  width: 122px;
+  height: 122px;
+  border-radius: 100%;
+  background-color: white;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+ }
+ .tutor-area .card-container .card .img-card  .card-bg  img{
+  width: 116px;
+  height: 116px;
+  border-radius: 100%;
+  padding: 5px;
+ }
+ .tutor-area .card-container .card p {
+   padding: 34px;
+ }
+/* humbergar */
+.bar a {
+  width: 35px;
+  height: 35px;
+  float: right;
+  position: relative;
+} 
+.bar a span {
+  width: 100%;
+  height: 3px;
+  background: #fff;
+  display: block;
+  position: relative;
+  top: 17px;
+  border-radius: 30px;
+  transition: .3s;
+} 
+.bar a span:before {left: 0;content: "";position: absolute;width: 100%;height: 100%;background: #fff;bottom: 10px;border-radius: 30px;transition: .3s;} 
+.bar a span:after {left: 0;content: "";position: absolute;width: 100%;height: 100%;background: #fff;bottom: -10px;border-radius: 30px;transition: .3s;}
+ 
+.setp-area{
+  width: 1138px;
+min-height: 308px;
+border-radius: 10px 0px 0px 0px;
+}
+.setp-area .setp_area_container h2{
+  font-family: TT Hoves Pro Trial;
+  font-size: 48px;
+  line-height: 57.6px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  padding:60px 0;
+  
+
+}
+.setp-area .setp_area_container h2 span{
+  width: 158px;
+height: 60px;
+padding: 5px 10px;
+gap: 0px;
+border-radius: 10px;
+border: 1px solid black;
+opacity: 0px;
+background-color: #F6B90D;
+
+  
+
+}
+.setp-area .setp_Container{
+  position: relative;
+  z-index: 1;
+}
+.setp-area .setp_Container::after{
+content: "";
+width: 100%;
+height: 1px;
+position: absolute;
+top: 50%;
+left: 0%;
+border-top: 2px solid gray;
+border-top-style: dashed;
+z-index: -1;
+
+}
+/* setp  */
+
+ .step-content.active {
+  display: block;
+  background-color: white;
+}
+ .set_main_container .setContainer .step-content h4 {
+  font-family: TT Hoves Pro Trial;
+  font-size: 32px;
+  line-height: 38.4px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #232323;
+  font-weight:bolder;
+
+}
+.set_main_container .setContainer .step-content p {
+  font-family: TT Hoves Pro Trial;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: -0.02em;
+text-align: left;
+
+
+}
+.step-circle {
+  width: 68.04px;
+height: 69px;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 100%;
+gap: 0px;
+border: 1px solid transparent;
+
+
+  color: black;
+  cursor: pointer;
+  position: relative;
+  background-color: #DFEFF7;
+ 
+}
+.step-circle.active {
+  background-color: #DFEFF7;
+}
+.step-line {
+  height: 3px;
+  width: 100%;
+
+  position: absolute;
+  top: 50%;
+  transform: translateY(-1.5px);
+  z-index: -1;
+}
+.accordion_container{
+  min-height: 587px;
+}
+.accordion_container h1{
+  font-family: TT Hoves Pro Trial;
+font-size: 48px;
+font-weight: 700;
+line-height: 57.6px;
+letter-spacing: -0.02em;
+text-align: left;
+color: #232323;
+}
+.accordion_container h2 button{
+  font-family: TT Hoves Pro Trial;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28.8px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #232323;
+}
+.accordion_container a{
+  width: Hug (134px)px;
+  height: Hug (47px)px;
+  top: 5156px;
+  left: 123px;
+  display: inline-block;
+  padding: 12px 31px 12px 31px;
+  gap: 10px;
+  border-radius: 50px ;
+  opacity: 0px;
+  color:white;
+  background-color: #232323;
+  margin-top: 20px;
+  
+}
+.accordion_container #collapseOne .accordion-body strong{
+  font-family: TT Hoves Pro Trial;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #2E3238B8;
+  
+}
+
+
+.lastContainer{
+  width: 1298px;
+  min-height: 404px;
+overflow: hidden;
+  border-radius: 20px;
+  background-color: #DFEFF7;
+
+}
+/* last section  */
+.lastContainer .lastSection{
+  width: 100%;
+  height: 100%;
+  padding:87px 0 0 114px;
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+.lastContainer .lastSection .right{
+
+  padding:87px 0 0 114px;
+}
+.lastContainer .lastSection h2{
+  font-family: TT Hoves Pro Trial;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 76.8px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  
+  color:#232323 ;
+}
+.lastContainer .lastSection p{
+  font-family: TT Hoves Pro Trial;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #2E3238B8;
+  
+}
+.lastContainer .lastSection groupImg
+{
+ display: block;
+  
+}
+.lastContainer .lastSection groupImgMobile
+{
+ display: none;
+  
+}
+footer{
+  min-height: 239px;
+  background-color: #232323;
+  color: white;
+  margin-top: 50px;
+  padding: 32px 16px;
+}
+footer .footerImg{
+  width: 179px !important;
+height: 48px;
+padding: 0px;
+gap: 0px;
+opacity: 0px;
+
+}
+footer .text{
+  width: 95px;
+height: 24px;
+top: 7340px;
+left: 286.5px;
+gap: 40px;
+opacity: 0px;
+
+
+}
+/* humbarger END */
+ 
+
+/* mobile-menu START */
+.mobile-menu {
+  position: fixed;
+  width: 320px;
+  height: 100vh;
+  background: #ffffff;
+  z-index: 99;
+  box-shadow: 0px 0px 9px -1px #737373;
+  top: 0;
+  left: 0;
+  transition: .3s;
+  margin-left: -400px;
+  padding-left: 40px;
+  padding-top: 100px;
+}
+.siteBar{
+  margin-left: 0; 
+}
+.mobile-menu ul#pills-tab {
+  margin-top: 90px;
+  margin-bottom: 35px !important;
+  display: block;
+}
+.mobile-menu  nav ul li {
+  list-style: none;
+  display: block;
+}
+
+.mobile-menu nav ul li a {
+  color: #272835;
+  font-size: 16px;
+  line-height: 40px;
+  transition: .3s;
+}
+
+.mobile-menu a.bars {
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  font-size: 32px;
+  color: rgb(255, 0, 43);
+}
+
+/* Header section END */
+
+
+/*============ Area Start =============*/
+
+/*============ Area End =============*/
+
+
+/*============ Area Start =============*/
+
+/*============ Area End =============*/
+

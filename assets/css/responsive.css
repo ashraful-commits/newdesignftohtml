@@ -1,0 +1,318 @@
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+}
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+}
+
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/* small screen :320px. */
+@media (max-width: 767px) {
+  section{
+    min-width: auto
+  };
+  .header-area .menubar {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 14px !important;
+   
+  }
+  .header-area .menubar .row {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: space-between;
+  }
+  .logo-area {
+    width: 105px;
+    height: 28px;
+    top: 18px;
+    left: 16px;
+    padding: 0px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .menu-area nav ul {
+    display: flex;
+    gap: 0;
+    align-items: center;
+    justify-content: end;
+  }
+  .menu-area nav ul li {
+    list-style: none;
+    display: inline-block;
+  }
+
+  .menu-area nav ul li a {
+    width: 90px;
+    height: 37px;
+    top: 14px;
+    left: 268px;
+    padding: 10px 16px 10px 16px;
+    gap: 5px;
+    border-radius: 50px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 17.22px;
+    text-align: left;
+
+    transition: all 0.5s ease-in-out;
+  }
+  .hero-section {
+    height: auto;
+  }
+  .hero-area .left {
+    padding: 20px;
+    margin-top: 30px;
+  }
+  .hero-area .backgroundImg {
+    display: none;
+  }
+  .hero-area .right {
+    padding: 0;
+    padding-bottom: 10px;
+    padding: 5px;
+  }
+  .hero-area .right .mobile_img {
+    display: block;
+  }
+  .hero-area .left .heading1 {
+    text-align: center;
+  }
+  .hero-area .left .heading2 {
+    text-align: center;
+  }
+  .hero-area .left p {
+    text-align: center;
+  }
+
+  .hero-area .left button {
+    margin-top: 5px;
+  }
+
+  .hero-area .left .users {
+    align-self: start;
+    margin-left: 40px;
+    margin-top: 10px;
+  }
+  .opte-pela {
+    min-height: auto;
+  }
+  .opte-pela .title::after{
+    display: none;
+  }
+  .opte-pela .title h1 {
+    margin-top: 0;
+    padding-top: 12px;
+    padding-bottom: 52px;
+  }
+  .opte-pela .title span {
+    padding: 5px 10px;
+  }
+  .opte-pela .description {
+    width: 361px;
+    height: 120px;
+    opacity: 0px;;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    text-align: justify;
+    
+  }
+  .opte-pela .opte-section .opet-main:nth-child(1) {
+    padding-top: 10px;
+    padding-left: 0;
+  }
+  .opte-pela .opte-section .opet-main:nth-child(2) {
+    padding-left: 0;
+  }
+  .opte-pela .opte-section .opet-main:nth-child(3) {
+    padding-left: 0;
+  }
+  .opte-pela .opte-section .opet-main:nth-child(4) {
+    /* align-items: end; */
+  }
+  .opte-pela .opte-section .opet-img {
+    width: auto;
+    height: auto;
+    padding: 10px;
+  }
+  .opte-pela .opte-section .opet-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+  }
+  .opte-pela .opte-section .opet-main .opet-title {
+    padding-top: 24px;
+    font-family: TT Hoves Pro Trial;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.4px;
+    letter-spacing: -0.02em;
+    text-align: left;
+  }
+  .opte-pela .opte-section .opet-main .opet-desc {
+    font-family: TT Hoves Pro Trial;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #2e3238b8;
+
+    padding-top: 24px;
+  }
+  .services{
+    min-height:1056px !important;
+    padding-top: 50px;
+
+  
+  }
+  .services .services-container .vector-main h2{
+    font-family: TT Hoves Pro Trial;
+font-size: 64px;
+font-weight: 700;
+line-height: 76.8px;
+letter-spacing: -0.02em;
+text-align: center;
+
+  }
+  .services .services-container .vector-main .vector-1{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+
+    height: fit-content !important;
+  }
+  .services .services-container .vector-main .vector-1 .vector {
+
+    width: 196.5px !important;
+  
+  }
+  .services .services-container .vector-main .vector-1 .vector span {
+    font-family: TT Hoves Pro Trial;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.2px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    
+  }
+  .services .services-container .vector-main .vector-1 .vector .img_div{
+    width: 48px;
+height: 48px;
+top: 4229px;
+left: 74px;
+gap: 0px;
+opacity: 0px;
+
+    
+  }
+  .services .services-container h2{
+    position: relative;
+    text-align: center;
+    font-family: TT Hoves Pro Trial;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 76.8px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    margin: 0 auto;
+    
+  }
+  .services .services-container .vector-main{
+   display: none;
+  }
+  .services .services-container .mobile-vector{
+   display: block;
+  }
+  .tutor-area .card-container .card {
+    gap: 16px 0;
+    margin-bottom: 16px;
+  }
+  .tutor-area .card-container{
+    width: auto;
+  }
+   /* tutor  */
+ .tutor-area{
+  width: auto;
+  
+ }
+ .tutor-area h1{
+  padding-bottom: 34px;
+  margin: 0 auto;
+ }
+ .tutor-area .container{
+ height: auto;
+width: auto !important;
+ }
+ .tutor-area .container .container .arrowButton{
+  display: none
+ }
+ .accordion_container {
+  padding: 10px 0px;
+ }
+ .accordion_container h1{
+  text-align: center !important;
+}
+.accordion_container  a{
+ margin: 0 0 90px 150px;
+ text-align: center;
+ display: inline-block;
+}
+.accordion_container h2{
+  text-align: center;
+}
+
+.lastContainer{
+  width: auto;
+
+overflow: hidden;
+  border-radius: 20px;
+  background-color: #DFEFF7;
+
+}
+.lastContainer .lastSection .right{
+
+  padding:10px 0 0 0;
+}
+.lastContainer .lastSection .groupImg
+{
+ display: none;
+  
+}
+.lastContainer .lastSection .groupImgMobile
+{
+ display: block;
+  
+}
+footer .footerImg{
+  width: 103px;
+  height: 28px;
+
+}
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .container {
+    width: 450px;
+  }
+  .header-area .menubar {
+    justify-content: space-between;
+    padding: 16px 16px !important;
+    width: 100% 
+    
+  }
+  .header-area .menubar .row {
+    padding-bottom: 10px;
+    padding: 0;
+    justify-content: space-between;
+  }
+}
