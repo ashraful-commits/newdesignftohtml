@@ -576,6 +576,11 @@ padding: 85px 0px 0 0px;
   gap: 0 50px;
 
  }
+ 
+ 
+ .tutor-area .container .card-container .arrowButton_mobile{
+  display: none !important;
+ }
  .tutor-area .container .title {
   font-family: TT Hoves Pro Trial;
 font-size: 48px;

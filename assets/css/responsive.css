@@ -255,7 +255,10 @@ opacity: 0px;
 width: auto !important;
  }
  .tutor-area .container .container .arrowButton{
-  display: none
+  display: none !important;
+ }
+ .tutor-area .container .card-container .arrowButton_mobile{
+  display: block !important;
  }
  .accordion_container {
   padding: 10px 0px;
