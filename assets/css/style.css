@@ -187,7 +187,7 @@ transition: all .5s ease-in-out;
   align-items: center;
 }
 .hero-area .backgroundImg{
-  background-image: url("/assets/img/illustration hero.png");
+  background-image: url("../img/illustration hero.png");
   width: 100%;
   min-height: 100%;
   position: absolute;
@@ -526,7 +526,7 @@ position: relative;
   padding: 15px 30px;
   align-items: center;
   flex-direction: column;
-  background-image: url("/assets/img/vectorbg.png");
+  background-image: url("../img/vectorbg.png");
   
 }
 .services .services-container .vector-main .vector-1 .vector span{
@@ -614,7 +614,7 @@ justify-content: center;
 margin:0 auto;
  }
  .tutor-area .card-container .card {
-  background-image: url("/assets/img/card-bg.png");
+  background-image: url("../img/card-bg.png");
   width: 369px;
   height: 422px;
   display: flex;
@@ -883,6 +883,24 @@ padding: 0px;
 gap: 0px;
 opacity: 0px;
 
+}
+.footer-copyright{
+  
+}
+.footer-copyright .social  ul li a{
+  width: 20px !important;
+  height: 20px !important;
+  border-radius: 100% ;
+  background-color: gray;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-copyright .social  ul li a.active{
+ 
+  background-color: var(--bs-orangey-yellow);
+  
 }
 footer .text{
   width: 95px;
