@@ -893,7 +893,7 @@ opacity: 0px;
   border-radius: 100% ;
   background-color: gray;
   font-size: 10px;
-  display: flex;
+  display: flex !important;
   justify-content: center;
   align-items: center;
 }

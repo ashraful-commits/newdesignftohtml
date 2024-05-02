@@ -312,7 +312,9 @@ footer{
   align-items: center;
   justify-content: center;
 }
-.footer-copyright .social  ul {
+.footer-copyright .social  ul li a {
+  width: 40px !important;
+  height: 40px !important;
   font-family: Poppins;
 font-size: 14px;
 font-weight: 400;
