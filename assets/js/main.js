@@ -3,13 +3,14 @@ document.addEventListener("DOMContentLoaded", function() {
 
   var menuLinks = document.querySelectorAll(".menu-area nav ul#nav li a");
   menuLinks.forEach(function(link) {
+      // Check if the current link's href matches the currentPageUrl
       if (link.href === currentPageUrl) {
+          // Add 'active' class to the link
           link.classList.add("active");
-      } else {
-          link.classList.remove("active");
       }
   });
 });
+
 
 
   function goToStep(step) {

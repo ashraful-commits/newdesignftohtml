@@ -113,7 +113,7 @@ section{
   height: 48px;
   top: 15px;
   left: 146px;
-  padding: 0px;
+  padding: 10px 0 0 0 ;
   gap: 0px;
   opacity: 0px;
   
@@ -130,13 +130,14 @@ section{
   position: relative;
 }
 .header-area .menubar .row{
-  padding-bottom: 12px;
+  padding-bottom: 20px;
 }
 
 .menu-area nav ul{
   display: flex;
   gap: 10 50px;
   align-items: center;
+  padding-top: 15px;
   
 }
 .menu-area nav ul li {
@@ -168,7 +169,7 @@ text-align: left;
 transition: all .5s ease-in-out;
 }
 .menu-area nav ul li .active{
-  background-color: white;
+  background-color: white !important;
   color: black;
 }
 .menu-area{
