@@ -289,12 +289,12 @@ overflow: hidden;
 }
 .lastContainer .lastSection .groupImg
 {
- display: none;
+ display: none !important;
   
 }
 .lastContainer .lastSection .groupImgMobile
 {
- display: block;
+ display: block !important;
   
 }
 footer .footerImg{

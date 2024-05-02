@@ -858,14 +858,14 @@ overflow: hidden;
   color: #2E3238B8;
   
 }
-.lastContainer .lastSection groupImg
+.lastContainer .lastSection .groupImg
 {
- display: block;
+ display: block !important;
   
 }
-.lastContainer .lastSection groupImgMobile
+.lastContainer .lastSection .groupImgMobile
 {
- display: none;
+ display: none !important;
   
 }
 footer{
