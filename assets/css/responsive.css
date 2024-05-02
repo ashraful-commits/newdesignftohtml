@@ -311,7 +311,7 @@ footer{
   margin: 0 auto;
   align-items: center;
   justify-content: center;
-  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .footer-copyright .social  ul li a {
   width: 40px !important;
