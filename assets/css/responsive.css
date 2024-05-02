@@ -299,6 +299,12 @@ footer .footerImg{
   height: 28px;
 
 }
+footer{
+  min-height: auto;
+ 
+  padding: 32px 16px;
+}
+}
 /* Large Mobile screen :480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   .container {
